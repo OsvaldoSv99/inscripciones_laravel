@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'KeepCalm-Medium';
+    src: url('../../fonts/KeepCalm-Medium.ttf');
+    }
+@font-face {
+    font-family: 'Futura-Light-Condensed-BT';
+    src: url('../../fonts/Futura-Light-Condensed-BT.ttf');
+    }
+@font-face {
+    font-family: 'Futura_Bold_Condensed_Bt';
+    src: url('../../fonts/Futura_Bold_Condensed_BT.ttf');
+    }
+
+.imagen_pasos{
+    width: 8rem;
+}
+
+.header {
+background-color: #144580;
+padding: 10px;
+    }
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Futura-Light-Condensed-BT';
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.titulo{
+    font-family: 'KeepCalm-Medium' !important;
+}
+
+  .boton_modificar{
+    background-color: #144580;
+    color: white;
+    padding: 10px;
+  }
+  .boton_modificar:hover{
+    background-color: #144580;
+    color: white;
+    padding: 10px;
+  }
+  .boton_generar{
+    background-color: #E23A26;
+    color: white;
+    padding: 10px;
+  }
+  .boton_siguiente{
+    background-color: #C9D358;
+    color: white;
+    padding: 10px;
+  }
+  .boton_siguiente:hover{
+    background-color: #C9D358;
+    color: white;
+    padding: 10px;
+  }
+  .card{
+    background-color: #FFF2CD;
+  }
+  .card-header{
+    background-color: #FBE484;
+  }
+/* Celular */
+@media only screen and (max-width: 480px) {
+    .imagen_pasos{
+        width: 4rem;
+    }
+}

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'KeepCalm-Medium';
+    src: url('../../fonts/KeepCalm-Medium.ttf');
+    }
+html body{
+    background-image: url('../../imagenes/fondo_login.jpg');
+    background-size: cover;
+    font-family: 'KeepCalm-Medium' !important;   
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+    }
+
+.encabezado{
+    background-color: #144580 !important;
+    color: white !important;
+}
+/* Estilos Datatables */
+ .dataTables_wrapper .dataTables_length select {
+    background-color: white;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    background-color: white;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background-color: white;
+}
+
+/* Estilos para celular */
+@media only screen and (max-width: 480px) {
+    #logo{
+        width: 100%;
+        height: auto;
+    }
+    
+    .form_login{
+        margin-top: 20px;
+    }
+
+    html body{
+        background-image: url('../../imagenes/fondo_resp.jpg');
+        background-size: cover;
+        font-family: 'KeepCalm-Medium' !important;   
+        background-size: 100% 98vh;
+    }
+}
+
+/* Estilos para Tablet */
+@media only screen and (max-width: 768px) {
+    html body{
+        background-image: url('../../imagenes/fondo_tab.jpg');
+        background-size: cover;
+        font-family: 'KeepCalm-Medium' !important;   
+        background-size: 100% 98vh;
+    }
+}

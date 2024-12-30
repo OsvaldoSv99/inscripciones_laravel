@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'KeepCalm-Medium';
+    src: url('../../fonts/KeepCalm-Medium.ttf');
+    }
+@font-face {
+    font-family: 'Futura-Light-Condensed-BT';
+    src: url('../../fonts/Futura-Light-Condensed-BT.ttf');
+    }
+@font-face {
+    font-family: 'Futura_Bold_Condensed_Bt';
+    src: url('../../fonts/Futura_Bold_Condensed_BT.ttf');
+    }
+
+        /* Flecha del acordeon en blanco */
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;    
+  }
+  .accordion-button:is(.collapsed)::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;    
+  }
+.imagen_pasos{
+    width: 8rem;
+}
+
+.header {
+background-color: #144580;
+padding: 10px;
+    }
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Futura-Light-Condensed-BT';
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.titulo{
+    font-family: 'KeepCalm-Medium' !important;
+}
+
+.accordion-body{
+    background-color: #DFEBF7 !important;
+  }
+  .accordion-button {
+    background-color: #144580;
+    color: white;
+}
+.accordion-button:not(.collapsed) {
+    color:white;
+    background-color: #144580;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+  .boton_modificar{
+    background-color: #144580;
+    color: white;
+    padding: 10px;
+  }
+
+  .boton_modificar:hover{
+    background-color: #144580;
+    color: white;
+    padding: 10px;
+  }
+  
+  .boton_generar{
+    background-color: #E23A26;
+    color: white;
+    padding: 10px;
+  }
+  .boton_siguiente{
+    background-color: #C9D358;
+    color: white;
+    padding: 10px;
+  }
+  .boton_siguiente:hover{
+    background-color: #C9D358;
+    color: white;
+    padding: 10px;
+  }
+/* Celular */
+@media only screen and (max-width: 480px) {
+    .imagen_pasos{
+        width: 4rem;
+    }
+}

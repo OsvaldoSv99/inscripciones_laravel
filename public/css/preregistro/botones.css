@@ -1,0 +1,116 @@
+@media (max-width: 767px) {
+    .botones_inicio{
+        width: 11rem !important;
+    }
+    .botones_inicio:hover{
+        width: 11rem;
+      }
+}
+.borde{
+    border:5px solid white;
+    border-radius:25px
+  }
+  .boton_reglamento{
+    background-color: #144580;
+    color: white;
+    font-weight: bold;
+    padding:10px;
+    width: 15rem;
+  }
+  .boton_reglamento:hover{
+    background-color: #144580;
+    color: white;
+    font-weight: bold;
+    padding:10px;
+    width: 15rem;
+  }
+  .boton_requisitos{
+    background-color: #FBE484;
+    color: white;
+    font-weight: bold;
+    padding:10px;
+    width: 15rem;
+  }
+  .boton_requisitos:hover{
+    background-color: #FBE484;
+    color: white;
+    font-weight: bold;
+    padding:10px;
+    width: 15rem;
+  }
+  .boton_calendario{
+    background-color: #C9D358;
+    color: white;
+    font-weight: bold;
+    padding:10px;
+    width: 15rem;
+  }
+  .boton_calendario:hover{
+    background-color: #C9D358;
+    color: white;
+    font-weight: bold;
+    padding:10px;
+    width: 15rem;
+  }
+
+  .botones_inicio{
+    background-color: #f15a24 !important;
+    width: 9rem;
+    height: auto;
+    display: inline-block;
+    padding: 2px;
+    color:white;
+    margin-top: 10px;
+  }
+  .botones_inicio:hover{
+    background-color: #f15a24 !important;
+    width: 9rem;
+    height: auto;
+    display: inline-block;
+    padding: 2px;
+    color:white;
+    margin-top: 10px;
+  }
+
+  .boton_descargar{
+    background-color: #CBD162 !important;
+    width: 9rem;
+    height: auto;
+    display: inline-block;
+    padding: 2px;
+    color:white;
+    margin-top: 10px;
+  }
+  .boton_descargar:hover{
+    background-color: #CBD162 !important;
+    width: 9rem;
+    height: auto;
+    display: inline-block;
+    padding: 2px;
+    color:white;
+    margin-top: 10px;
+  }
+  .boton_imprimir{
+    background-color: #FBE484 !important;
+    width: 9rem;
+    height: auto;
+    display: inline-block;
+    padding: 2px;
+    color:black;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .boton_imprimir:hover{
+    background-color: #FBE484 !important;
+    width: 9rem;
+    height: auto;
+    display: inline-block;
+    padding: 2px;
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  a{
+    text-decoration: none;
+  }

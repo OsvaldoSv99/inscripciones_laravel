@@ -1,0 +1,108 @@
+html body{
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url('../../imagenes/preregistro/fondo_head.png');
+    background-size: cover;
+    background-size: 100% 85vh;
+    background-repeat: no-repeat;
+}
+
+.imagen_sucursal{
+    width: 8rem;
+    cursor: pointer;
+}
+
+.imagen_pasos{
+    width: 8rem;
+}
+
+.nombre_categoria{
+    color: #144580;
+    font-size: 1.9rem;
+}
+
+.texto_nacimiento{
+    color:white;
+    font-size: 1.2rem;
+    text-align: end;
+}
+/* Celular */
+@media only screen and (max-width: 480px) {
+html body{
+    width: 102%;
+    height: 100vh;
+    background-image: url('../../imagenes/preregistro/fondo_head.png');
+    background-size: cover;
+    background-size: 100% 35%;
+    background-repeat: no-repeat;
+}
+
+.imagen_sucursal{
+    width: 6rem;
+    cursor: pointer;
+}
+
+.imagen_pasos{
+    width: 4rem;
+}
+
+.nombre_categoria{
+    color: #144580;
+    font-size: 0.7rem;
+}
+
+.texto_recuerda{
+    font-size: 0.8rem;
+}
+
+.texto_nacimiento{
+    color:black;
+    font-size: 0.9rem;
+    text-align: center;
+}
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+html body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../imagenes/preregistro/fondo_head.png');
+    background-size: cover;
+    background-size: 100% 35%;
+    background-repeat: no-repeat;
+
+}
+
+.imagen_sucursal{
+    width: 5rem;
+    cursor: pointer;
+}
+
+.imagen_pasos{
+    width: 4rem;
+}
+
+.nombre_categoria{
+    color: #144580;
+    font-size: 0.7rem;
+}
+.texto_recuerda{
+    font-size: 0.8rem;
+}
+
+.texto_nacimiento{
+    color:black;
+    font-size: 0.9rem;
+    text-align: center;
+}
+    @media (max-width: 767px) {
+        .columna{
+            display: flex;
+            flex-direction: column;
+        }
+        .mt-5{
+            margin-top: 5px !important;
+        }
+    }
+}
